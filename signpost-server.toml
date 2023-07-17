@@ -5,7 +5,7 @@
 allowed_waystone_models = ["simple_0", "simple_1", "simple_2", "detailed_0", "detailed_1", "aer", "dwarf", "ygnar"]
 
 [teleport]
-	enable = true
+	enable = false
 	#-1 = infinite
 	#Range: > -1
 	max_distance = -1
@@ -74,15 +74,15 @@ allowed_waystone_models = ["simple_0", "simple_1", "simple_2", "detailed_0", "de
 		#Defines whether palyers can set a Waystones waystone as the target of a Signpost sign.
 		allow_waystones_as_sign_target = true
 		#Defines whether players can teleport to a waystone by using a sign post.Disable this if you want to force them to use the native Waystones methods like warp scrolls
-		enable_teleport_via_signpost = true
+		enable_teleport_via_signpost = false
 
 	[compat.antique_atlas]
 		#Defines whether signpost icons for waystones are automatically added to antique atlases
 		gen_icons = true
 		#Defines whether clicking on an automatically generated sign icon will allow the player to teleport to that waystone (if already discovered or 'enable_discovery')
-		enable_teleport = true
+		enable_teleport = false
 		#Assuming 'enable_teleport' is on, defines whether the player needs to look directly ata sign post in order to teleport. This means that they have to right click a post forteleportation to work
-		teleport_requires_sign_post = true
+		teleport_requires_sign_post = false
 		#Defines whether clicking on an automatically generated sign icon will make the player 'discover' that waystone (if not already known)
 		enable_discovery = true
 

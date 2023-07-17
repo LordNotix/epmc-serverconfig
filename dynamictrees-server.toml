@@ -77,7 +77,7 @@
 	#If enabled the Dirt Bucket will place a dirt block on right-click
 	dirtBucketPlacesDirt = true
 	#If enabled then improperly broken trees(not by an entity) will still drop wood.
-	sloppyBreakDrops = false
+	sloppyBreakDrops = true
 	#The minimum radius a branch must have before its able to be stripped. 8 = Full block size. Set to 0 to disable stripping trees
 	#Range: 0 ~ 24
 	minRadiusForStrip = 6
@@ -93,7 +93,7 @@
 #World Generation Settings
 [world]
 	#Randomly generate podzol under select trees like spruce.
-	podzolGen = true
+	podzolGen = false
 
 #Debug Settings
 [debug]

@@ -92,9 +92,9 @@ farmlandMakesTheBestRaceTracks = false
 
 	[blocks.largeVessel]
 		#If true, large vessels will interact with in-world automation such as hoppers on a side-specific basis.
-		largeVesselEnableAutomation = true
+		largeVesselEnableAutomation = false
 		#If true, large vessels will seal and unseal on redstone signal.
-		largeVesselEnableRedstoneSeal = true
+		largeVesselEnableRedstoneSeal = false
 
 	[blocks.torch]
 		#Number of ticks required for a torch to burn out (1000 = 1 in game hour = 50 seconds), default is 72 hours. Set to -1 to disable torch burnout.
@@ -218,11 +218,11 @@ farmlandMakesTheBestRaceTracks = false
 		#Range: > 1
 		blastFurnaceMaxChimneyHeight = 5
 		#If true, blast furnaces will interact with in-world automation such as hoppers on a side-specific basis.
-		blastFurnaceEnableAutomation = true
+		blastFurnaceEnableAutomation = false
 
 	[blocks.loom]
 		#If true, looms will interact with in-world automation such as hoppers on a side-specific basis.
-		loomEnableAutomation = true
+		loomEnableAutomation = false
 
 	[blocks.thatch]
 		#A movement multiplier for players moving through thatch. Lower = slower.
@@ -251,21 +251,21 @@ farmlandMakesTheBestRaceTracks = false
 
 	[blocks.charcoalForge]
 		#If true, charcoal forges will interact with in-world automation such as hoppers on a side-specific basis.
-		charcoalForgeEnableAutomation = true
+		charcoalForgeEnableAutomation = false
 
 	[blocks.firePitEnableAutomation]
 		#If true, fire pits will interact with in-world automation such as hoppers on a side-specific basis.
-		firePitEnableAutomation = true
+		firePitEnableAutomation = false
 
 	[blocks.nestBox]
 		#If true, nest boxes will interact with in-world automation such as hoppers on a side-specific basis.
-		nestBoxEnableAutomation = true
+		nestBoxEnableAutomation = false
 
 	[blocks.powderKeg]
 		#If true, powder kegs can be lit and exploded.
 		powderKegEnabled = true
 		#If true, powder kegs will interact with in-world automation such as hoppers on a side-specific basis.
-		powderKegEnableAutomation = true
+		powderKegEnableAutomation = false
 		#A modifier to the strength of powderkegs when exploding. A max powderkeg explosion is 64, and all explosions are capped to this size no matter the value of the modifier.
 		#Range: 0.0 ~ 64.0
 		powderKegStrengthModifier = 1.0
@@ -377,7 +377,7 @@ farmlandMakesTheBestRaceTracks = false
 
 	[blocks.dispenser]
 		#If true, dispensers can light TFC devices.
-		dispenserEnableLighting = true
+		dispenserEnableLighting = false
 
 [items]
 
