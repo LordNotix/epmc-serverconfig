@@ -1,0 +1,7 @@
+
+#This is the config for TerraFirmaMisc
+[molds]
+	#Tank capacity of a Nail mold (in mB).
+	#Range: 0 ~ 2147483645
+	moldNailCapacity = 60
+
