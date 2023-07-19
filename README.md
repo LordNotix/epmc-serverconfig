@@ -43,7 +43,7 @@ From within the folder you want to turn into the git project.
 git init
 git remote add origin https://github.com/LordNotix/epmc-serverconfig.git
 git fetch origin
-git checkout -b master --track origin/main # origin/main is clone's default
+git checkout -b main --track origin/main # origin/main is clone's default
 ```
 
 This may ask you to authenticate your git credentials, do so.
